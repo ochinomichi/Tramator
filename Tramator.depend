@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1533990762 source:c:\users\oblivion\documents\tramator\tramator\main.cpp
+	<iostream>
+	<ctime>
+	<chrono>
+	<string>
+	"Eric.h"
+
+1533991469 c:\users\oblivion\documents\tramator\tramator\include\eric.h
+	<iostream>
+	<fstream>
+	"Trame.h"
+
+1533992678 c:\users\oblivion\documents\tramator\tramator\include\trame.h
+	<string>
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	<iostream>
+
+1533992486 source:c:\users\oblivion\documents\tramator\tramator\src\eric.cpp
+	"Eric.h"
+
+1533992835 source:c:\users\oblivion\documents\tramator\tramator\src\trame.cpp
+	"Trame.h"
+

@@ -3,6 +3,7 @@
 #include <chrono>
 #include <string>
 #include "Eric.h"
+#include "PT6S3.h"
 
 using namespace std;
 

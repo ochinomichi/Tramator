@@ -3,6 +3,7 @@
 #include <chrono>
 #include <string>
 #include "Eric.h"
+#include "Precia.h"
 
 using namespace std;
 

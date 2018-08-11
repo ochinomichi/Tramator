@@ -1,12 +1,13 @@
 # depslib dependency file v1.0
-1533990762 source:c:\users\oblivion\documents\tramator\tramator\main.cpp
+1534017866 source:c:\users\oblivion\documents\tramator\tramator\main.cpp
 	<iostream>
 	<ctime>
 	<chrono>
 	<string>
 	"Eric.h"
+	"PT6S3.h"
 
-1533991469 c:\users\oblivion\documents\tramator\tramator\include\eric.h
+1534014906 c:\users\oblivion\documents\tramator\tramator\include\eric.h
 	<iostream>
 	<fstream>
 	"Trame.h"
@@ -18,9 +19,17 @@
 	<stdio.h>
 	<iostream>
 
-1533992486 source:c:\users\oblivion\documents\tramator\tramator\src\eric.cpp
+1534016087 source:c:\users\oblivion\documents\tramator\tramator\src\eric.cpp
 	"Eric.h"
 
 1533992874 source:c:\users\oblivion\documents\tramator\tramator\src\trame.cpp
 	"Trame.h"
+
+1534018002 c:\users\oblivion\documents\tramator\tramator\include\pt6s3.h
+	<string>
+	<fstream>
+	"Trame.h"
+
+1534016699 source:c:\users\oblivion\documents\tramator\tramator\src\pt6s3.cpp
+	"PT6S3.h"
 

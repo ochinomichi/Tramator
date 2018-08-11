@@ -11,11 +11,11 @@ class Eric : public Trame
         virtual ~Eric();
         void generate_values(std::string st = "49");
         void generate_trame(std::string tdde = "I");
-        void print_all();
         std::string collect_data();
+        std::string get_trame(std::string tdde);
+        void print_all();
         void print_data(std::string data);
         void print_trame(std::string tdde);
-        std::string get_trame(std::string tdde);
         void save_all();
 
     protected:

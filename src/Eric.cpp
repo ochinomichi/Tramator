@@ -102,16 +102,8 @@ void Eric::print_data(string data){
     cout << data << endl;
 }
 
-void Eric::print_trame(std::string tdde){
-    generate_trame(tdde);
-    cout << "Trame resultant d'une demande : " << tdde << endl;
-    cout << "---------Debut trame Hexa---------" << endl;
-    cout << trameHexa << endl;
-    cout << "----------Fin trame Hexa----------" << endl;
-
-    cout << "---------Debut trame Ascii---------" << endl;
-    cout << trameAscii << endl;
-    cout << "----------Fin trame Ascii----------" << endl;
+void Eric::print_trame(string tdde){
+    cout << get_trame(tdde) << endl;
 }
 
 string Eric::get_trame(string tdde){

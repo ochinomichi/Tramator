@@ -28,7 +28,7 @@ int main(){
     cout << ctime(&timer) << endl;
     */
 
-    Eric test;
+    PT6S3 test;
     test.generate_values();
     test.print_all();
     test.save_all();

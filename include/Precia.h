@@ -2,21 +2,20 @@
 #define PRECIA_H
 #include "Trame.h"
 
-
 class Precia : public Trame
 {
     public:
-        Precia();
-        virtual ~Precia();
-        void generate_values(int slave = 1, std::string num_mac = "3030", std::string unit = "6B6720");
-        std::string cks();
-        void generate_trame(int instr = 1 , int check = 1);
-        std::string collect_data();
-        std::string get_trame(int instr, int check);
-        void print_all();
-        void print_data();
-        void print_trame(int instr, int check);
-        void save_all();
+        Precia();                                                                                           //Enregisre les donnees et trames sous la forme des différentes demandes
+        virtual ~Precia();                                                                                  //dtor
+        void generate_values(int slave = 1, std::string num_mac = "3030", std::string unit = "6B6720");     //Genere les valeurs qui seront contenues dans la trame
+        std::string cks();                                                                                  //Calcul la checksum de la trame au format hexa
+        void generate_trame(int instr = 1 , int check = 1);                                                 //Genere la trame sous sa forme hexa et Ascii
+        std::string collect_data();                                                                         //Formate les donnees de la trame pour en préparer l'affichage
+        std::string get_trame(int instr, int check);                                                        //Formate les trames hexa et ascii pour en preparer l'affichage
+        void print_all();                                                                                   //Affiche dans la console les donnees et les trames selon les types de demandes
+        void print_data();                                                                                  //Affiche les donnees
+        void print_trame(int instr, int check);                                                             //Affiche une trame selon un type de demande
+        void save_all();                                                                                    //Enregisre les donnees et trames sous la forme des différentes demandes
 
     protected:
 

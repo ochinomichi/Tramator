@@ -29,19 +29,7 @@ string Trame::int_to_str_len (int val, unsigned int length)
     }
     return str_val;
 }
-/*
-string Trame::str_to_hex (string val)
-{
-    string hex_val = ""
-    for(int i=0;i<val.length();i++){
-        string hv = hex(val[i]).replace('0x', '')
-        if len(hv) == 1:
-            hv = '0'+hv
-        hex_val += hv
-    }
-    return hex_val
-}
-*/
+
 string Trame::string_to_hexa(const std::string& input)
 {
     static const char* const lut = "0123456789ABCDEF";
@@ -185,15 +173,7 @@ string Trame::hexa_to_char(string val){
     result[0] = (char)((hexa_int_table(val[0])*16)+hexa_int_table(val[1]));
     return result;
 }
-/*
-Trame::int_to_hexa (string val)
-{
-    hv = hex(val).replace('0x', '')
-    if len(hv) == 1:
-        hv = '0'+hv
-    return hv
-}
-*/
+
 Trame::compute_pds_nt(int brut, int tare)
 {
     return int(brut) - int(tare);

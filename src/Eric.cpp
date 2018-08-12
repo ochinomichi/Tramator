@@ -1,5 +1,7 @@
 #include "Eric.h"
+
 using namespace std;
+
 Eric::Eric(string st) : Trame()
 {
     //ctor
@@ -98,8 +100,8 @@ string Eric::collect_data(){
     return data;
 }
 
-void Eric::print_data(string data){
-    cout << data << endl;
+void Eric::print_data(){
+    cout << collect_data() << endl;
 }
 
 void Eric::print_trame(string tdde){

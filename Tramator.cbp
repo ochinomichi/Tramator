@@ -36,10 +36,12 @@
 		</Compiler>
 		<Unit filename="include/Eric.h" />
 		<Unit filename="include/PT6S3.h" />
+		<Unit filename="include/Precia.h" />
 		<Unit filename="include/Trame.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Eric.cpp" />
 		<Unit filename="src/PT6S3.cpp" />
+		<Unit filename="src/Precia.cpp" />
 		<Unit filename="src/Trame.cpp" />
 		<Extensions>
 			<code_completion />

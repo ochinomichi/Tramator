@@ -6,6 +6,7 @@
 	<string>
 	"Eric.h"
 	"PT6S3.h"
+	"Precia.h"
 
 1534014906 c:\users\oblivion\documents\tramator\tramator\include\eric.h
 	<iostream>
@@ -32,4 +33,6 @@
 
 1534016699 source:c:\users\oblivion\documents\tramator\tramator\src\pt6s3.cpp
 	"PT6S3.h"
+	"Precia.h"
+
 

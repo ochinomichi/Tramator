@@ -4,6 +4,7 @@
 #include <string>
 #include "Eric.h"
 #include "PT6S3.h"
+#include "Precia.h"
 
 using namespace std;
 
@@ -32,6 +33,11 @@ int main(){
     test.generate_values();
     test.print_all();
     test.save_all();
+
+
+
+    //system("cls");
+
 
     return 0;
 }

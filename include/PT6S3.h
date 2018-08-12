@@ -8,6 +8,7 @@ class PT6S3 : public Trame
         PT6S3(std::string st = "49");                    //ctor
         virtual ~PT6S3();                                //dtor
         void generate_values(std::string st = "49");     //Genere les valeurs qui seront contenues dans la trame
+        void set_values(std::string pa, std::string st, int brut, std::string pb, std::string ndsd, std::string pc);
         std::string cks();                               //Calcul la checksum de la trame au format hexa
         void generate_trame(std::string tdde = "q");     //Genere la trame sous sa forme hexa et Ascii
         std::string collect_data();                      //Formate les donnees de la trame pour en préparer l'affichage

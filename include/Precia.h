@@ -10,6 +10,7 @@ class Precia : public Trame
         void generate_values(int slave = 1, std::string num_mac = "3030", std::string unit = "6B6720");     //Genere les valeurs qui seront contenues dans la trame
         std::string cks();                                                                                  //Calcul la checksum de la trame au format hexa
         void generate_trame(int instr = 1 , int check = 1);                                                 //Genere la trame sous sa forme hexa et Ascii
+        void set_values(std::string start, std::string type, std::string nmac, int br, int tr, std::string un, std::string iDSD, std::string DS, std::string dte, std::string tim, std::string blcksep, std::string endblck);
         std::string collect_data();                                                                         //Formate les donnees de la trame pour en préparer l'affichage
         std::string get_trame(int instr, int check);                                                        //Formate les trames hexa et ascii pour en preparer l'affichage
         void print_all();                                                                                   //Affiche dans la console les donnees et les trames selon les types de demandes

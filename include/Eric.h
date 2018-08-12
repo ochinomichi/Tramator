@@ -8,6 +8,7 @@ class Eric : public Trame
         Eric(std::string st = "49");                    //ctor
         virtual ~Eric();                                //dtor
         void generate_values(std::string st = "49");    //Genere les valeurs qui seront contenues dans la trame
+        void set_values(std::string car, std::string st, int brut, int tare, std::string ndsd, std::string dte, std::string tim);
         void generate_trame(std::string tdde = "I");    //Genere la trame sous sa forme hexa et Ascii
         std::string collect_data();                     //Formate les donnees de la trame pour en préparer l'affichage
         std::string get_trame(std::string tdde);        //Formate les trames hexa et ascii pour en preparer l'affichage
@@ -28,7 +29,6 @@ class Eric : public Trame
         std::string DSD;
         std::string date;
         std::string time;
-        std::string cks();
 };
 
 #endif // ERIC_H

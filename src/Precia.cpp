@@ -43,9 +43,25 @@ void Precia::generate_values(int slave, string inNum_mac, string inUnit){
     DSD = int_to_str_len(rand_int(1, 99999), 5);
     date = int_to_str_len(rand_int(1, 28), 2);
     date += int_to_str_len(rand_int(1, 12), 2);
-    date += getDateTimeFormatted(1);
+    date += getDateTimeFormatted(2);
     time = int_to_str_len(rand_int(0, 23), 2);
     time += int_to_str_len(rand_int(0, 59), 2);
+}
+
+void Precia::set_values(string start, string type, string nmac, int br, int tr, string un, string iDSD, string DS, string dte, string tim, string blcksep, string endblck){
+    SOH = start;
+    type_prot = type;
+    num_mac = nmac;
+    pds_br = int_to_str_len(br, 7);
+    pds_tr = int_to_str_len(tr, 7);
+    pds_nt = int_to_str_len(compute_pds_nt(br,tr),7);
+    unit = un;
+    idDSD = iDSD;
+    DSD = DS;
+    date = dte;
+    time = tim;
+    blck_sep = blcksep;
+    end_blck = endblck;
 }
 
 string Precia::cks(){

@@ -1,12 +1,10 @@
-#include "Eric.h"
-#include "PT6S3.h"
-#include "Precia.h"
+#include "Console.h"
 
 using namespace std;
 
 int main(){
 
-    Eric test1;
+    /*Eric test1;
     test1.save_all();
 
     PT6S3 test2;
@@ -14,9 +12,9 @@ int main(){
 
     Precia test3;
     test3.save_all();
-
+    */
     //system("cls");
-
+    process_init();
 
     return 0;
 }

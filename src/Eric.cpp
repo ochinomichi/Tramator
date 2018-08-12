@@ -37,6 +37,17 @@ void Eric::generate_values(string st){
     time += int_to_str_len(rand_int(0, 59), 2);
 }
 
+void Eric::set_values(std::string car, std::string st, int brut, int tare, std::string ndsd, std::string dte, std::string tim){
+    CR = car;
+    state = st;
+    pds_br = int_to_str_len(brut, 5);
+    pds_tr = int_to_str_len(tare, 5);
+    pds_nt = int_to_str_len(compute_pds_nt(brut,tare),5);
+    DSD = ndsd;
+    date = dte;
+    time = tim;
+}
+
 std::string Eric::cks(){
     int hex_sum = 0;
     for(unsigned int i = 2;i<Trame::trameHexa.length();i+=2){
@@ -78,7 +89,7 @@ void Eric::generate_trame(std::string tdde){
 }
 
 void Eric::print_all(){
-    print_data(collect_data());
+    print_data();
     print_trame("P");
     print_trame("B");
     print_trame("N");

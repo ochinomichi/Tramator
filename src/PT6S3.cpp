@@ -25,6 +25,15 @@ void PT6S3::generate_values(string st){
     DSD = int_to_str_len(rand_int(1, 99999), 5);
 }
 
+void PT6S3::set_values(std::string pa, std::string st, int brut, std::string pb, std::string ndsd, std::string pc){
+    p1 = pa;
+    state = st;
+    pds = int_to_str_len(brut, 5);
+    p2 = pb;
+    DSD = ndsd;
+    p3 = pc;
+}
+
 std::string PT6S3::cks(){
     int hex_sum = 0;
     for(unsigned int i=0;i < trameHexa.length();i+=2){

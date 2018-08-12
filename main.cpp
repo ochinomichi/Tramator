@@ -28,10 +28,15 @@ int main(){
     cout << ctime(&timer) << endl;
     */
 
-    Eric test;
+    Precia test;
     test.generate_values();
     test.print_all();
     test.save_all();
+
+
+
+    //system("cls");
+
 
     return 0;
 }

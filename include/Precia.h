@@ -1,9 +1,6 @@
 #ifndef PRECIA_H
 #define PRECIA_H
 #include "Trame.h"
-#include <iostream>
-#include <fstream>
-#include <string>
 
 
 class Precia : public Trame

@@ -1,7 +1,5 @@
 #ifndef ERIC_H
 #define ERIC_H
-#include <iostream>
-#include <fstream>
 #include "Trame.h"
 
 class Eric : public Trame

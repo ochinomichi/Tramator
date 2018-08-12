@@ -33,3 +33,7 @@
 
 #Other
 *.txt
+*.layout
+ERIC*.txt
+PT6S3*.txt
+PRECIA*.txt

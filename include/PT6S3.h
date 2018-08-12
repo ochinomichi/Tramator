@@ -1,7 +1,5 @@
 #ifndef PT6S3_H
 #define PT6S3_H
-#include <string>
-#include <fstream>
 #include "Trame.h"
 
 

@@ -1,43 +1,42 @@
 # depslib dependency file v1.0
-1534084056 source:c:\users\oblivion\documents\tramator\tramator\main.cpp
+1534096958 source:c:\users\oblivion\documents\tramator\tramator\main.cpp
 	"Console.h"
 
-1534073977 c:\users\oblivion\documents\tramator\tramator\include\trame.h
-	<string>
+1534097495 c:\users\oblivion\documents\tramator\tramator\include\trame.h
 	<stdlib.h>
 	<time.h>
 	<stdio.h>
-	<iostream>
 	<fstream>
+	<iostream>
 
-1534088183 c:\users\oblivion\documents\tramator\tramator\include\eric.h
+1534096958 c:\users\oblivion\documents\tramator\tramator\include\eric.h
 	"Trame.h"
 
-1534090857 c:\users\oblivion\documents\tramator\tramator\include\pt6s3.h
+1534096958 c:\users\oblivion\documents\tramator\tramator\include\pt6s3.h
 	"Trame.h"
 
-1534094402 c:\users\oblivion\documents\tramator\tramator\include\precia.h
+1534096958 c:\users\oblivion\documents\tramator\tramator\include\precia.h
 	"Trame.h"
 
 1534071345 source:c:\users\oblivion\documents\tramator\tramator\src\trame.cpp
 	"Trame.h"
 
-1534088184 source:c:\users\oblivion\documents\tramator\tramator\src\eric.cpp
+1534096958 source:c:\users\oblivion\documents\tramator\tramator\src\eric.cpp
 	"Eric.h"
 
-1534090857 source:c:\users\oblivion\documents\tramator\tramator\src\pt6s3.cpp
+1534096958 source:c:\users\oblivion\documents\tramator\tramator\src\pt6s3.cpp
 	"PT6S3.h"
 
-1534066126 source:c:\users\oblivion\documents\tramator\tramator\src\precia.cpp
+1534096958 source:c:\users\oblivion\documents\tramator\tramator\src\precia.cpp
 	"Precia.h"
 
-1534089305 c:\users\oblivion\documents\tramator\tramator\include\console.h
+1534096958 c:\users\oblivion\documents\tramator\tramator\include\console.h
 	<iostream>
 	<string>
 	"Eric.h"
 	"PT6S3.h"
 	"Precia.h"
 
-1534080763 source:c:\users\oblivion\documents\tramator\tramator\src\console.cpp
+1534096958 source:c:\users\oblivion\documents\tramator\tramator\src\console.cpp
 	"Console.h"
 

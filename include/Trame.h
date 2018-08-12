@@ -1,11 +1,10 @@
 #ifndef TRAME_H
 #define TRAME_H
-#include <string>
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <iostream>
 #include <fstream>
+#include <iostream>
 
 class Trame
 {

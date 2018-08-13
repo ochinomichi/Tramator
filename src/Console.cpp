@@ -5,7 +5,7 @@ using namespace std;
 void process_init(){
     int i = -1;
     do{
-        cout << "----------------TRAMATOR Version 1.0.0----------------" << endl;
+        cout << "----------------TRAMATOR Version 1.3.0----------------" << endl;
         cout << "1- Generation automatique aleatoire (tous protocoles)" << endl;
         cout << "2- ERIC" << endl;
         cout << "3- PT6S3" << endl;

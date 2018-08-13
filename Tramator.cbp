@@ -31,6 +31,8 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
 				</Linker>
 			</Target>
 		</Build>

@@ -3,7 +3,7 @@
 using namespace std;
 
 void process_init(){
-    int i = 0;
+    int i = -1;
     do{
         cout << "----------------TRAMATOR Version 1.0.0----------------" << endl;
         cout << "1- Generation automatique aleatoire (tous protocoles)" << endl;
@@ -32,6 +32,7 @@ void process_init(){
         case 0 :
             break;
         default :
+            i=-1;
             cout << "Ce choix n'existe pas" << endl;
             pause();
         }
@@ -58,7 +59,7 @@ void process_auto(int protocole){
 }
 
 void process_eric(){
-    int i = 0;
+    int i = -1;
     do{
         cout << "----------------    PROTOCOLE ERIC    ----------------" << endl;
         cout << "1- Generation automatique aleatoire" << endl;
@@ -77,6 +78,7 @@ void process_eric(){
         case 0 :
             break;
         default :
+            i=-1;
             cout << "Ce choix n'existe pas" << endl;
             pause();
         }
@@ -115,7 +117,7 @@ void input_eric(){
 }
 
 void process_pt6s3(){
-    int i = 0;
+    int i = -1;
     do{
         cout << "----------------    PROTOCOLE PT6S3   ----------------" << endl;
         cout << "1- Generation automatique aleatoire" << endl;
@@ -134,6 +136,7 @@ void process_pt6s3(){
         case 0 :
             break;
         default :
+            i=-1;
             cout << "Ce choix n'existe pas" << endl;
             pause();
         }
@@ -162,7 +165,7 @@ void input_pt6s3(){
 }
 
 void process_precia(){
-    int i = 0;
+    int i = -1;
     do{
         cout << "----------------   PROTOCOLE PRECIA   ----------------" << endl;
         cout << "1- Generation automatique aleatoire" << endl;
@@ -181,6 +184,7 @@ void process_precia(){
         case 0 :
             break;
         default :
+            i=-1;
             cout << "Ce choix n'existe pas" << endl;
             pause();
         }

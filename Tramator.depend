@@ -40,3 +40,41 @@
 1534096958 source:c:\users\oblivion\documents\tramator\tramator\src\console.cpp
 	"Console.h"
 
+1534144147 source:c:\users\tinganni\documents\tramator\main.cpp
+	"Console.h"
+
+1534144147 c:\users\tinganni\documents\tramator\include\console.h
+	<iostream>
+	<string>
+	"Eric.h"
+	"PT6S3.h"
+	"Precia.h"
+
+1534144147 c:\users\tinganni\documents\tramator\include\eric.h
+	"Trame.h"
+
+1534144147 c:\users\tinganni\documents\tramator\include\trame.h
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	<fstream>
+	<iostream>
+
+1534144147 c:\users\tinganni\documents\tramator\include\pt6s3.h
+	"Trame.h"
+
+1534144147 c:\users\tinganni\documents\tramator\include\precia.h
+	"Trame.h"
+
+1534144147 source:c:\users\tinganni\documents\tramator\src\eric.cpp
+	"Eric.h"
+
+1534144147 source:c:\users\tinganni\documents\tramator\src\precia.cpp
+	"Precia.h"
+
+1534144147 source:c:\users\tinganni\documents\tramator\src\pt6s3.cpp
+	"PT6S3.h"
+
+1534144147 source:c:\users\tinganni\documents\tramator\src\trame.cpp
+	"Trame.h"
+
